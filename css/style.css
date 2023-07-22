@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,600&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+.bannerBgImage 
+{
+    height: 100vh;
+    background-color: black;
+    background: url("/images/bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText
+{
+    
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-70%);
+}
+.bannerTitle
+{
+    font-size: 4rem;
+    color: black;
+}
+.bannerDesc
+{
+    font-size: 2rem;
+    color: white;
+}
+
+.card
+{
+    cursor: pointer;
+    background-color:rgb(249, 178, 202);
+}
+.card:hover
+{
+    background-color:rgb(228, 135, 166);
+    border: 2px solid rgb(228, 135, 166);
+}
+.card-title
+{
+    color: black; 
+}
+.bIcon
+{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(228, 135, 166);
+}
+
+.img-fluid:hover
+{
+    border: 2px solid rgb(228, 135, 166);
+}
+
+.carousel-caption
+{
+
+    position: relative;
+    text-align: left;
+    font-size: 1vw;
+    width: 30vw;
+    top:50px;
+    left: 55%;
+    transform: translate(0%,-100%);
+    color: white;
+}
+
+.carousel img{
+    position: relative;
+    top:80px;
+
+    height:30vh;
+    width:2vw;
+}
+.Social-media
+{
+    
+}
